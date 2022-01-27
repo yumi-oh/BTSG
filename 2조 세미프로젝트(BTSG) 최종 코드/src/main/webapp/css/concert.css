@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+a{
+text-decoration: none;
+}
+/* a태그 밑줄제거 */
+
+/* 상품목록 컨테이너 */
+#contaner{
+display: flex;
+}
+
+
+#concert{
+	text-align:center;
+	float:left;
+	margin-right: 5px;
+	width: 300px;
+	text-decoration:none;
+}
+/* 상품목록 안 상품div */
+
+/* 상품목록 안 p */
+#concert p{
+margin-top:3px;
+text-decoration: none;
+}
+
+#concert img{
+width:100px;
+height: 150px;
+}
+/* 콘서트 이미지 */
+
+div p{
+    width: [width of img];
+ }
+/*  콘서트 이미지와 div안의 p넓이 맞춤 */

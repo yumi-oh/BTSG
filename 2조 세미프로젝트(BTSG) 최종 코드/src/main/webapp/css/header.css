@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+#header{z-index:1; position:fixed;top:0;left:0;margin:0;padding:0;width:100%;transition:all .3s ease-out 0s}
+#header *{margin:0;padding:0}
+#header .logo{position:absolute;top:3rem;left:3rem;transform:translateY(-50%);z-index:10}
+#header.on .logo{width:90px}
+#header .logo img.on{display:block;height: 30px;}
+#header.on .logo img.on{display:none}
+#header .logo img.off{display:none}
+#header.on .logo img.off{display:block;height: 30px;}
+#header .nav .nav_bg{opacity:0;position:absolute;top:0;left:0;width:100%;height:0;background:#111;transition:all .3s ease-out 0s}
+#header .nav .nav_bg.on{opacity:1;height:100%}
+#header .nav .menu_area{position:relative;left:calc(34% + 3rem);display:inline-block;width:auto;font-size:0;text-align:left}
+#header.on .nav .menu_area::before{content:'';display:block;position:absolute;top:50%;left:0;transform:translateY(-50%);width:1px;height:calc(100% - 3rem);background:#ddd}
+#header .nav .menu_area>li{position:relative;float:left;margin:1.5rem 3rem 0}
+#header .nav .menu_area>li>a{color:#fff;font-size:2.5rem;font-weight:700;line-height:1.5}
+#header .nav .menu_area>li .depth_02{transform:translateY(-20px);width:100%;opacity:0;transition:all .5s}    
+#header .nav .menu_area>li.on .depth_02{transform:translateY(0);opacity:1}
+#header .nav .menu_area>li .depth_02 li:last-of-type{margin-bottom:60px}
+#header .nav .menu_area>li .depth_02 li a{display:inline-block;position:relative;margin-top:10px;color:#fff;font-size:16px;text-align:left}
+#header .nav .menu_area>li .depth_02 li a::after{content:'';display:block;position:absolute;bottom:0;left:0;width:0;height:1px;background:#fff;transition:all .3s}
+#header .nav .menu_area>li .depth_02 li a:hover::after{width:100%}
+#header .nav .menu_area>li .depth_02 li:first-of-type a{margin-top:20px}
+#header .nav .lang{position:absolute;top:0;right:0;width:9.5rem;padding:1.5rem 0 0;text-align:center;font-size:2rem;font-weight:700;cursor:pointer}
+#header .nav .lang .lang_bg{position:absolute;top:0;left:0;width:100%;height:0;transition:all .3s;background:#111;z-index:90;opacity:0}
+#header .nav .lang .lang_bg.on{opacity:1;height:100%}
+#header .nav .lang .lang_hover span{display:inline-block;position:relative;color:#fff;font-size:2rem;font-weight:700;line-height:1.5;z-index:100}
+#header .nav .lang .lang_hover span::after{content:'';display:block;position:absolute;bottom:0;left:0;width:100%;height:2px;background:#fff}            
+#header .nav .lang .lang_hover:hover span{color:#f5ff00}
+#header .nav .lang .lang_hover:hover span::after{background:#f5ff00}
+#header .nav .lang .lang_hover:hover .lang_list{opacity:1;transform:translateY(0)}
+#header .nav .lang .lang_hover .lang_list{opacity:0;position:relative;transform:translateY(-20px);z-index:100;transition:all .5s}
+#header .nav .lang .lang_hover .lang_list li{margin-top:10px}
+#header .nav .lang .lang_hover .lang_list li:first-of-type{margin-top:20px}
+#header .nav .lang .lang_hover .lang_list li:last-of-type{margin-bottom:20px}
+#header .nav .lang .lang_hover .lang_list li a{position:relative;display:inline-block;color:#fff;font-size:2rem;font-weight:700;line-height:1.5}
+#header .nav .lang .lang_hover .lang_list li a:hover{color:#f5ff00}
+#header .nav .lang .lang_hover .lang_list li a::after{content:'';display:block;position:absolute;bottom:0;left:0;width:0;height:2px;background:transparent;transition:all .5s}
+#header .nav .lang .lang_hover .lang_list li a:hover::after{width:100%;background:#f5ff00}

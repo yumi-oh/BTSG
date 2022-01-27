@@ -1,0 +1,141 @@
+#regi2 legend {
+    /* font-size: 1.3em; */
+}
+
+#regi2 label {
+    width: 20%;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+#regi2 input[type=password] {
+    margin-left: 0;
+    font-size: 1.3em;
+}
+
+#regi2 input[type=text] {
+    border: 0;
+    font-size: 1.3em;
+}
+
+#regi2 span {
+    font-size: 1.3em;
+}
+
+#regi2 input#email1 {
+    width: 20%;
+}
+
+#regi2 #email2 {
+    width: 20%;
+    margin-left: 14px;
+    border: 0;
+}
+
+#regi2 #image {
+    margin-right: 390px;
+    width: 30%;
+    float: right;
+    /* padding-right: 5px; */
+}
+
+#regi2 input#zipcode {
+    font-size: 1.3em;
+}
+
+#regi2 input[name=address] {
+    font-size: 1.3em;
+    margin-right: 325px;
+    margin-left: 0px;
+    width: 300px;
+}
+
+#regi2 input[name=addressDetail] {
+    font-size: 1.3em;
+    margin-right: 325px;
+    margin-left: 0px;
+    width: 300px;
+}
+
+div#zip2 {
+    margin-bottom: 40px;
+}
+
+#regi2 select#hp1 {
+    width: 9%;
+    margin-left: 0;
+    margin-right: 14px;
+}
+
+#regi2 #hp2 {
+    text-align: center;
+    width: 7%;
+}
+
+#regi2 #hp3 {
+    width: 9%;
+    text-align: center;
+}
+
+fieldset div {
+    /* border-bottom: 1px solid gray; */
+}
+
+#regi2 #card_com {
+    margin-left: 0px;
+}
+
+#regi2 #card_num1 {
+    text-align: center;
+}
+#regi2 #card_num2 {
+    text-align: center;
+}
+#regi2 #card_num3 {
+    text-align: center;
+}
+#regi2 #card_num4 {
+    text-align: center;
+}
+
+div#imagePreview2 {
+    width: 282px;
+    height: 352px;
+    border: 1px solid;
+    margin-right: 19px;
+}
+
+div#profile {
+    /* width: 70%; */
+}
+
+fieldset#regi_pro2 {
+    float: left;
+}
+
+form#registerFrm3 {
+    /* overflow: hidden; */
+    float: left;
+    width: 70%;
+    margin-top: 50px;
+}
+
+fieldset#regi2 {
+    float: left;
+    /* margin: 0 auto; */
+}
+div#pro {
+    width: 25%;
+    height: 10%;
+    /* margin-right: 40px; */
+    float: left;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: -90px;
+}
+#regi2 .regi_addi {
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    margin-bottom: 50px;
+}

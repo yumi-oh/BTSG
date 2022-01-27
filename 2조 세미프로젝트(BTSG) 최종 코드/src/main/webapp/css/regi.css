@@ -1,0 +1,468 @@
+@charset "UTF-8";
+
+form#registerFrm {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+form#registerFrm2 {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+fieldset#regi {
+    width: 45%;
+    border: 0;
+    margin-left: 0px;
+    margin-right: 30px;
+}
+
+#regi div {
+    padding: 10px;
+    margin: 20px;
+    border-bottom: 3px solid gray;
+}
+
+#regi legend {
+    font-size: 2.1em;
+    font-weight:bold;
+    margin-bottom: 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+input#birth1 {width: 27%;}
+
+input#birth2 {
+    width: 5%;
+    font-size: 1.5em;
+}
+
+input#hp2 {
+    width: 18%;
+}
+
+input#hp3 {
+    width: 18%;
+}
+
+select#hp1 {
+    width: 12%;
+    text-align: center;
+    font-size: 1.2em;
+}
+div#regi_additional {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#regi_additional h2 {
+    font-size: 3.2em;
+}
+
+#regi_additional h3 {
+    font-size: 2.0em;
+    margin-top: 40px;
+}
+
+
+form#regi_addi {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #A4A0CD;
+    border-radius: 25px;
+}
+
+#regi_addi label {
+    margin-left: 60px;
+}
+
+input[name="address"] {
+    margin-left: 275px;
+    width: 30%;
+}
+
+input[name="addressDetail"] {
+    margin-left: 275px;
+    width: 30%;
+    float: right;
+    margin-right: 20px;
+}
+
+
+form#regi_addi * {
+    padding: 1px;
+}
+
+#regi div label {
+    font-size: 21px;
+    width: 27%;
+    font-weight:bolder;
+}
+
+#regi div input[type=text] {
+    font-size: 1.2em;
+    border: 0;
+    margin-left: 20px;
+}
+
+input#email1 {
+    width: 19%;
+}
+
+#user_password1, #user_password2 {
+    width: 50%;
+    font-size: 1.2em;
+    border: 0;
+    margin-left: 20px;
+}
+
+select#email2 {
+    font-size: 1.2em;
+    width: 20%;
+}
+
+input#wr_submit {
+    width: 90%;
+    font-size: 2.5em;
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
+
+input#btnChkId {
+    font-size: 1.3em;
+    color: white;
+}
+fieldset#pro {
+    width: 50%;
+    float: left;
+    border: 0;
+    margin-top: 0px;
+    border-left: 3px solid gray;
+    padding-left: 40px;
+}
+
+form#registerFrm {
+    overflow: hidden;
+}
+form#registerFrm2 {
+    overflow: hidden;
+}
+
+fieldset#regi {
+    float: left;
+}
+
+fieldset#pro input[type=checkbox] {
+    width: 1.5rem;
+}
+
+div#m {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+iframe {
+    border: 2px solid gray;
+    margin: 10px 0;
+}
+input#wr_submit {
+    margin-top: 69px;
+}
+
+form#registerFrm {
+    margin-top: 150px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+form#registerFrm2 {
+    margin-top: 150px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+fieldset#regi {
+    /* margin-top: 76px; */
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+select#hp1 {
+    margin-left: 20px;
+    width: 15%;
+}
+
+span#ssn {
+    font-size: 1.8em;
+}
+#regi div input[name=user_id] {
+    width: 45%;
+}
+input#nickname {
+    width: 60%;
+}
+div#regi_additional {
+    height: 500px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+#regi_additional a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.0em;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+div#go_addi {
+    /* width: 330px; */
+    /* height: 60px; */
+    /* background-color: #F7C9C9; */
+    /* float: left; */
+    /* margin-left: 150px; */
+    /* border-radius: 20px; */
+}
+
+div#go_log {
+    /* width: 330px; */
+    /* height: 60px; */
+    /* background-color: #A4A0CD; */
+    /* float: right; */
+    /* margin-right: 150px; */
+    /* border-radius: 20px; */
+}
+
+#go_log a {
+    font-size: 2.0em;
+}
+
+#regi_additional h4 {
+    margin-bottom: 100px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+fieldset#log {
+    border: 0;
+}
+
+input#user_id {
+    font-size: 2.0em;
+    width: 70%;
+    /* height: 29%; */
+    border: 0;
+}
+
+label.label {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 30px;
+    width: 20%;
+}
+
+input#user_password {
+    font-size: 2.0em;
+    border: 0;
+    width: 70%;
+}
+
+#log legend {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form[name=frmLogin] {
+    margin: 0 auto;
+    height: 700px;
+    /* margin-top: 57px; */
+}
+
+.align_center {
+    /* text-align: center; */
+}
+
+input#lg_submit {font-size: 1.5em;}
+
+span#chklabel {
+    font-size: 1.7em;
+}
+
+input#chkSave {
+    /* font-size: 2.5em; */
+}
+
+fieldset#sns {
+    border: 0;
+    /* float: right; */
+    border-left: 3px solid gray;
+    height: 70%;
+    margin-top: 200px;
+    margin-left: 40px;
+    width: 45%;
+}
+
+section#section {
+    margin: 0 auto;
+}
+
+fieldset#log {
+    /* margin-top: 140px; */
+    width: 45%;
+    float: left;
+    margin-right: 50px;
+}
+#sns div {
+    margin-top: 199px;
+    margin-left: 0;
+    /* margin-left: 108px; */
+}
+
+img#snsBtn {
+    padding: 10px;
+    padding-left: 10px;
+    width: 30%;
+}
+span#chklabel {margin-rigt: 109px;}
+
+.align_center {
+    border: 0;
+}
+
+input#lg_submit {
+    margin-left: 0;
+    font-size: 3.0em;
+    width: 100%;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+}
+
+legend {
+    color: black;
+    font-style: italic;
+}
+
+article.simpleForm {
+    margin: 0 auto;
+    width: 1300px;
+}
+div#log_input {
+    border-bottom: 2px solid gray;
+    padding: 30px;
+}
+
+.align_center {padding-top: 30px;}
+
+span#regis {
+    font-size: 1.5em;
+    float: right;
+}
+input#email3 {
+    width: 20%;
+    margin-left: 0;
+}
+div#go_addi {
+    float: left;
+    /* height: 200px; */
+    width: 40%;
+}
+
+#regi_additional a {
+    margin-left: 65px;
+}
+
+div#go_log {
+    width: 45%;
+    float: left;
+    margin-left: 135px;
+}
+fieldset {}
+
+fieldset#preview {
+    width: 50%;
+    float: right;
+}
+
+input[name="address"] {
+    float: right;
+    margin-right: 20px;
+    width: 64%;
+    margin-bottom: 3px;
+    margin-top: 2px;
+}
+input[name="addressDetail"] {
+    float: right;
+    margin-right: 20px;
+    width: 64%;
+    margin-bottom: 0px;
+    margin-top: -5px;
+}
+
+input#zipcode {
+    margin-bottom: 5px;
+}
+
+
+div#zip {height: 145px;}
+input#profile {
+    margin-left: 20px;
+}
+
+select#card_com {
+    margin-left: 20px;
+    font-size: 1.4em;
+}
+
+input#card_num1 {
+    width: 12%;
+}
+input#card_num2{
+    width: 12%;
+}
+input#card_num3 {
+    width: 12%;
+}
+input#card_num4 {
+    width: 12%;
+    font-size: 1.3em;
+    border: 0;
+}
+#regi_pro h3 {
+    font-size: 2.0em;
+    /* margin-left: 150px; */
+    /* margin-bottom: 50px; */
+}
+
+fieldset#regi_pro {
+    margin: 0 auto;
+    text-align: center;
+}
+
+div#imagePreview {
+    width: 421px;
+    height: 596px;
+    border: 3px solid gray;
+    margin: 0 auto;
+}
+
+input#submit {
+    width: 65%;
+    font-size: 2.0em;
+    margin-top: 50px;
+    color: white;
+    font-style: italic;
+    background-color: black;
+}
+div#regi_additional {
+    background-image: url(../images/btsg3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 92px;
+    /* opacity: 0.5; */
+}

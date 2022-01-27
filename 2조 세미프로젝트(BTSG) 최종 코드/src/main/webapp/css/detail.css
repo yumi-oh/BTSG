@@ -1,0 +1,394 @@
+@charset "utf-8";
+.detail-cont #prdInfo > div.on{
+	display: block;
+}
+
+.detail-cont #prdInfo > div{
+	display: none;
+}
+
+.detail-cont{
+	margin-top: 20px;
+}
+
+.nav-item a span{
+	border: 1px solid #f7c9c9;
+    border-radius: 8px;
+    color: #f7c9c9;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 4px;
+    font-size: 10px;
+    line-height: 12px;
+}
+.cont > div {
+    margin: 20px 0;
+}
+
+#map{
+	width: 95%;
+    height: 300px;
+    margin: auto;
+}
+.imglArea {
+	width: 75%;
+	float: left;
+}
+
+div#infoArea {
+	width: 25%;
+	float: right;
+}
+
+#infoArea #info table {
+	margin: 10px 0;
+}
+
+#infoArea #info h3 {
+	font-size: 20pt;
+	font-weight: bold;
+	padding: 20px 0;
+	border-bottom: 1px solid #e4e4e4;
+}
+
+#infoArea #info p {
+	font-size: 1.2em;
+	border-bottom: 1px solid #999;
+	border-top: 1px solid #999;
+	padding: 16px 10px;
+}
+
+input#quantity {
+	width: 16px;
+	height: 20px;
+	float: left;
+}
+table td{
+    line-height: 12px;
+    padding: 10px 0;
+}
+
+thead tr {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+tbody tr span.quantity{
+	display: inline-block;
+    position: relative;
+    width: 44px;
+    vertical-align: middle;
+}
+
+input#quantity {
+    float: left;
+    width: 26px;
+    height: 26px;
+    padding: 0 0 0 2px;
+    line-height: 23px;
+    border: 1px solid #d4d8d9;
+    border-radius: 3px 0 0 3px;
+}
+
+a.up.QuantityUp {
+    position: absolute;
+    left: 28px;
+    top: 0;
+}
+
+a.up.QuantityUp img, a.down.QuantityDown img{
+    display: block;
+}
+
+a.down.QuantityDown {
+	position: absolute;
+    left: 28px;
+    top: 12px;
+}
+
+#btn a {
+	width: 100px;
+	background: #7871B6;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+}
+
+#prdDetail .detailCashInfo {
+	font-size: 14px;
+	line-height: 1.8
+}
+
+.payment_info * {
+	font-size: 14px !important
+}
+
+.menu li {
+	float: left;
+	padding: 10px;
+}
+
+.datail-cont {
+	clear: both;
+	margin: 20px auto;
+	width: 800px;
+}
+
+.imglArea > div{
+	width: 95%;
+}
+ul.menu {
+	width: 100%;
+	overflow: hidden;
+}
+
+p.detail-cont-more {
+	margin: 20px 0 50px 0;
+	text-align: center;
+	font-weight: bold;
+}
+
+#conLanding p img {
+	width: 100%;
+}
+
+/* datepicker */
+#infoArea .btn_wrap a#btnbuy {
+    float: right;
+}
+
+.btn_wrap {
+    width: 100%;
+}
+
+input[type="hidden"] {
+    float: left;
+}
+
+div#result {
+    padding: 10px 20px;
+    border: 1px solid #e4e4e4;
+    margin: 10px 0 24px 0;
+    font-size: 1.1em;
+    height: 43px;
+}
+#infoArea .btn_wrap a {
+    float: left;
+    width: 48%;
+}
+
+#infoArea a button {
+    width: 100%;
+    height: 46px;
+    font-size: 1.2em;
+}
+
+#info form p span {
+    float: right;
+}
+
+/* rate */
+.chk_list {
+	display: flex;
+	position: relative;
+	flex-direction: row-reverse;
+	justify-content: left;
+	margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+.chk_list input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 0
+}
+
+.chk_list label {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 4px;
+	width: 16px;
+	height: 16px;
+	background: url(../assets/img/ico_star_rating.png) center no-repeat;
+	background-size: 16px
+}
+
+.chk_list label:first-of-type {
+	margin-left: 0
+}
+
+.chk_list label:last-of-type {
+	margin-left: 0
+}
+
+.chk_list input:checked ~ label {
+	background: url(../assets/img/ico_star_rating_on.png) center no-repeat;
+	background-size: 16px
+}
+
+.chk_list label:hover {
+	background: url(../assets/img/ico_star_rating_on.png) center no-repeat;
+	background-size: 16px
+}
+
+.chk_list label:hover ~ label {
+	background: url(../assets/img/ico_star_rating_on.png) center no-repeat;
+	background-size: 16px
+}
+
+/* datepicker */
+.ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.ui-datepicker-calendar thead {
+    background: #e4e4e4;
+    border-radius: 8px;
+    border: 1px solid #e4e4e4;
+}
+
+/* Review */
+#smartReview{
+	padding-bottom:100px;
+	clear:both;
+	width: 75%;
+}
+
+.status {
+    float: left;
+}
+
+#starwrap{
+	width: 90px;
+	height: 100%;
+	position: relative;
+	margin: auto;
+	text-align:center;
+}
+
+div#star {
+    width: 90px;
+    height: 18px;
+    background: url(../assets/img/ico_star5.png) center no-repeat;
+    position: absolute;
+    bottom: 32%;
+    left: 0;
+}
+div#starimg {
+    height: 18px;
+    background: url(../assets/img/ico_star5_on.png) no-repeat;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 32%;
+}
+
+#starwrap p {
+    text-align: center;
+    font-size: 28pt;
+    overflow: hidden;
+    margin-bottom: 0;
+    padding-top: 3px;
+    font-weight: 300;
+    color: #666;
+}
+
+#starwrap span {
+    display: block;
+    margin-top: 14px;
+    font-size: 10px;
+    color: #999;
+}
+
+.thumbList {
+    float: left;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.thumbList ul {
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 9px;
+}
+
+.thumbList ul li {
+    width: 80px;
+    height: 80px;
+    margin: 0 10px 10px 0;
+    float: left;
+}
+
+.thumbList ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+#writeReview h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.reviewGrade {
+    border: 1px solid #e3e3e3;
+    width: 100%;
+    height: 100px;
+    margin: 20px 0;
+}
+
+.status {
+    border-right: 1px solid #e4e4e4;
+    width: 20%;
+    height: 100%;
+}
+
+.divSearch {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.reviewList{
+    text-align: center;
+}
+.reviewList table {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.reviewList tr {
+    line-height: 40px;
+}
+
+.reviewList tbody {
+    border-top: 1px solid #e4e4e4;
+}
+
+.reviewList tr {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.reviewList td {
+    height: 120px;
+    padding: 20px;
+    line-height: 18px;
+}
+
+.reviewList tbody td a{
+	display:block;
+}
+
+button#moreview {
+    border: 0;
+    background: #fff;
+    text-align: left;
+    padding: 0;
+    font-weight: bold;
+}
+

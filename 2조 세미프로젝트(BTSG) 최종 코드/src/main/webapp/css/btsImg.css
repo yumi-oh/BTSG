@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body{
+	width: 1200px;
+	background-color: #faf4f4;
+}
+#container{
+	width: 80%;
+	margin: 0 auto;
+	position: absolute;
+}
+#nameList{
+	width: 600px;
+	float: left;
+}
+#imgList{
+	width: 600px;
+	float: left;
+}
+#nameList > ul{
+	list-style: none;
+	margin: 5px;
+}
+#nameList a{
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+	font-size: 18px;
+}
+.img_section img{
+	width: 300px;
+	height: 400px;
+	object-fit: cover;
+}
+footer{
+	clear: both;
+}
+
